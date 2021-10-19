@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Intro } from './utils';
+import { Intro, About } from './utils';
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
 
 
       <Intro />
+      <About />
 
-      
     </div>
   );
 }
