@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Integrations & Tools:
+- Fonts: https://fonts.google.com/specimen/Poppins?query=poppins
+
 ## Available Scripts
 
 In the project directory, you can run:
