@@ -1,10 +1,19 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Sun from '../../assets/sun_img.png';
 import Moon from '../../assets/moon_img.png';
 import './Toggle.css';
+import { ThemeContext } from '../../context';
 
 /* This component is to toggle Dark Mode: */
 const Toggle = () => {
+
+    const theme = useContext(ThemeContext);
+
+/* Dispataches the UI action when toggle button is clicked: */
+    const handleClick = () => {
+        theme.dispatch( {type: 'TOGGLE'});
+    }
+
     return (
         <div className="toggle">
             <img 
@@ -17,7 +26,7 @@ const Toggle = () => {
                 alt=""
                 className="toggle-icon"
             />
-            <button className="toggle-button"></button>
+            <div className="toggle-button" onClick={handleClick}></div>
         </div>
     );
 };

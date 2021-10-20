@@ -71,7 +71,7 @@ textarea {
     padding-left: 10px;
 }
 
-button {
+.contact-button {
     border: none;
     padding: 15px;
     background-color: #59b256;
