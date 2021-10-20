@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import Phone from '../../assets/phone_img.png';
 import Email from '../../assets/email_img.png';
 import Address from '../../assets/address_img.png';
@@ -9,6 +9,7 @@ import './Contact.css';
 const Contact = () => {
 
     const formRef = useRef();
+    const [ emailSent, setEmailSent ] = useState(false);
 
 /* Use email.js */
     const handleSubmit = (event) => {
@@ -16,6 +17,7 @@ const Contact = () => {
         emailjs.sendForm('service_2r2pxvp', 'template_1u4c6dc', formRef.current, 'user_ssQeZXemBZwlrNSJZ8wgx')
       .then((result) => {
           console.log(result.text);
+          setEmailSent(true);
       }, (error) => {
           console.log(error.text);
       });
@@ -61,6 +63,7 @@ const Contact = () => {
                         <input type="text" placeholder="Email" name="user_email" />
                         <textarea rows="5" placeholder="Message" name="message"/>
                         <button>Submit</button>
+                        {emailSent && "Thank you for sending a message!  I'll get back to you ASAP!"}
                     </form>
                 </div>
             </div>

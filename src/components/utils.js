@@ -9,3 +9,5 @@ export { default as Product } from '../components/Product/Product.jsx';
 export { default as ProductList } from '../components/ProductList/ProductList.jsx'; 
 
 export { default as Contact } from '../components/Contact/Contact.jsx';
+
+export { default as Toggle } from '../components/Toggle/Toggle.jsx';
