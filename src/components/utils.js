@@ -7,3 +7,5 @@ export { default as About } from '../components/About/About.jsx';
 export { default as Product } from '../components/Product/Product.jsx';
 
 export { default as ProductList } from '../components/ProductList/ProductList.jsx'; 
+
+export { default as Contact } from '../components/Contact/Contact.jsx';
