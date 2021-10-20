@@ -1,3 +1,6 @@
+# About:
+Basic portfolio template for clients featuring a "dark-mode" functionality!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Integrations & Tools:
 - Fonts: https://fonts.google.com/specimen/Poppins?query=poppins
 - Email.js (email server provider library): `npm i emailjs-com`
+- Context API
 
 ## Available Scripts
 

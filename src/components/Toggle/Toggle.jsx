@@ -26,7 +26,7 @@ const Toggle = () => {
                 alt=""
                 className="toggle-icon"
             />
-            <div className="toggle-button" onClick={handleClick} style={ {left: theme.state.darkMode ? 0 : 25}}></div>
+            <div className="toggle-button" onClick={handleClick} style={ {left: theme.state.darkMode ? 0 : 25} }></div>
         </div>
     );
 };
