@@ -14,6 +14,10 @@ const ProductList = () => {
             </div>
             <div className="productlist-list">
                 <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
             </div>
         </div>
     );
