@@ -117,7 +117,7 @@ const Intro = () => {
 
             <div className="intro-right">
                 <div className="intro-background"></div>
-                <img className="intro-img" src={Sun} alt="The sun" />
+                {/* <img className="intro-img" src={Sun} alt="The sun" /> */}
             </div>
             
         </div>

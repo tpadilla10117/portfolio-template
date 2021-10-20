@@ -4,8 +4,8 @@ import { ThemeContext } from '../context';
 import { Intro, About, ProductList, Contact, Toggle } from './utils';
 
 function App() {
-/* State to handle dark mode toggle: */
-  const [ dark, setDark ] = useState(false);
+/* State to handle dark mode toggle if prop-drilling: */
+  /* const [ dark, setDark ] = useState(false); */
 
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
