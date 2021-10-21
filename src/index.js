@@ -6,6 +6,7 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './context';
 
+/* 4) In Context API, wrap you parent component with the Context Provider */
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
