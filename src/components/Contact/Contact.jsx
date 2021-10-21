@@ -10,8 +10,9 @@ const Contact = () => {
 
     const formRef = useRef();
     const [ emailSent, setEmailSent ] = useState(false);
-    const theme = useContext(ThemeContext);
+    const theme = useContext(ThemeContext); //references our Context Object with the darkmode functionality
     const darkMode = theme.state.darkMode;
+    /* console.log("Status of darkmode:", darkMode); */
 
 /* Use email.js */
     const handleSubmit = (event) => {

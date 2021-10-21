@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, {useContext} from 'react';
 import './App.css';
 import { ThemeContext } from '../context';
 import { Intro, About, ProductList, Contact, Toggle } from './utils';
