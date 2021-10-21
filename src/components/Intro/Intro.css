@@ -41,8 +41,14 @@
 .intro-title-wrapper {
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
+    /*  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
 }
 
+/* Keyframes lets us gradually change from one style to the next: */
 @keyframes move {
     25% {
         transform: translateY(-50px);
