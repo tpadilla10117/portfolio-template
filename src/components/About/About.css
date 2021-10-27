@@ -22,15 +22,15 @@
     top: 50px;
     left: 50px;
     background-color: #333;
-    /* animation: fade 2s ease-in-out infinite alternate; */
+    animation: fade 2s ease-in-out infinite alternate;
 }
 
-/* @keyframes fade {
-    25% {opacity: .3}
-    50% {opacity: .5}
-    75%{opacity: .7}
+@keyframes fade {
+    /* 25% {opacity: .25} */
+    50% {opacity: .50}
+    /* 75%{opacity: .75} */
     100%{opacity: 1}
-} */
+}
 
 .about-card {
     width: 60%;
